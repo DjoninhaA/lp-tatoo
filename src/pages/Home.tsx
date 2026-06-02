@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import '../fighting-star.css';
 
-const WHATSAPP_URL = 'https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita.';
+const WHATSAPP_URL = 'https://wa.me/5545999773094?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita.';
 
 function useReveal() {
   const ref = useRef<HTMLDivElement>(null);

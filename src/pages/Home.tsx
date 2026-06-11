@@ -583,7 +583,7 @@ const TESTIMONIALS = [
   },
 ];
 
-const AVATARS = TESTIMONIALS.map(t => ({ initials: t.initials, gradient: t.gradient }));
+
 
 function TestimonialsSection() {
   const [idx, setIdx] = useState(0);
@@ -613,30 +613,6 @@ function TestimonialsSection() {
         </div>
 
         {/* Avatars row */}
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: isMobile ? 6 : 16, marginBottom: 40, flexWrap: 'wrap' }}>
-          {AVATARS.map((av, i) => {
-            const active = i === idx;
-            const size = active ? (isMobile ? 48 : 58) : (isMobile ? 34 : 42);
-            return (
-              <div key={i} onClick={() => setIdx(i)}
-                style={{
-                  width: size, height: size, borderRadius: '50%', background: av.gradient,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontFamily: 'Cinzel, serif', fontWeight: 700, fontSize: active ? '0.65rem' : '0.52rem',
-                  color: 'var(--fs-surface)',
-                  border: active ? '2px solid var(--fs-accent)' : '2px solid transparent',
-                  boxShadow: active ? '0 0 18px rgba(196,149,106,0.35)' : 'none',
-                  opacity: active ? 1 : 0.5,
-                  cursor: 'pointer',
-                  transition: 'all 0.3s ease',
-                }}
-              >
-                {av.initials}
-              </div>
-            );
-          })}
-        </div>
-
         {/* Card */}
         <div style={{
           background: 'var(--fs-bg)', border: '1px solid var(--fs-divider)',

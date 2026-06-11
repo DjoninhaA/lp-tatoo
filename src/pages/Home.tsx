@@ -169,7 +169,6 @@ function Navbar() {
   );
 }
 
-const TATTOO_STYLES = ['Realismo', 'Trabalhos Coloridos', 'Artes Exclusivas'];
 
 function HeroSection() {
   const isMobile = useIsMobile();
@@ -196,13 +195,7 @@ function HeroSection() {
               <span style={{ display: 'block', color: 'var(--fs-text)' }}>e cinza</span>
             </h1>
 
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'center', marginBottom: 20 }}>
-              {TATTOO_STYLES.map(s => (
-                <span key={s} style={{ fontFamily: 'Cinzel, serif', fontSize: '0.58rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--fs-accent)', border: '1px solid var(--fs-accent)', borderRadius: 4, padding: '5px 12px', opacity: 0.85 }}>{s}</span>
-              ))}
-            </div>
-
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: 14, marginTop: 8 }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: 14, marginTop: 8, marginBottom: 20 }}>
               <span style={{ color: 'var(--fs-accent)', fontSize: '1rem', opacity: 0.7 }}>◆</span>
               <button
                 style={{
@@ -212,10 +205,10 @@ function HeroSection() {
                   borderRadius: 8,
                   fontFamily: 'Cinzel, serif',
                   fontWeight: 700,
-                  fontSize: '0.72rem',
+                  fontSize: '0.9rem',
                   letterSpacing: '0.25em',
                   textTransform: 'uppercase',
-                  padding: '16px 32px',
+                  padding: '20px 48px',
                   cursor: 'pointer',
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -257,13 +250,7 @@ function HeroSection() {
             <span style={{ display: 'block', color: 'var(--fs-text)' }}>e cinza</span>
           </h1>
 
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 24 }}>
-            {TATTOO_STYLES.map(s => (
-              <span key={s} style={{ fontFamily: 'Cinzel, serif', fontSize: '0.6rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--fs-accent)', border: '1px solid var(--fs-accent)', borderRadius: 4, padding: '5px 14px', opacity: 0.85 }}>{s}</span>
-            ))}
-          </div>
-
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: 14, marginTop: 8 }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: 14, marginTop: 8, marginBottom: 24 }}>
             <span style={{ color: 'var(--fs-accent)', fontSize: '1rem', opacity: 0.7 }}>◆</span>
             <button
               style={{
@@ -273,10 +260,10 @@ function HeroSection() {
                 borderRadius: 8,
                 fontFamily: 'Cinzel, serif',
                 fontWeight: 700,
-                fontSize: '0.72rem',
+                fontSize: '0.9rem',
                 letterSpacing: '0.25em',
                 textTransform: 'uppercase',
-                padding: '16px 44px',
+                padding: '20px 56px',
                 cursor: 'pointer',
                 display: 'inline-flex',
                 alignItems: 'center',

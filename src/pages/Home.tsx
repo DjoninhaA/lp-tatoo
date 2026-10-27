@@ -190,7 +190,7 @@ function HeroSection() {
 
           <div style={{ paddingBottom: 40, animation: 'fadeInUp 0.7s ease 0.2s both' }}>
             <p style={{ fontFamily: 'Cinzel, serif', fontSize: '0.75rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--fs-muted)', marginBottom: 24 }}>
-              Tatuador em Toledo-PR, especialista no preto e cinza
+              Tatuador em Toledo-PR,<br />especialista no preto e cinza
             </p>
             <h1 style={{ fontFamily: 'Cinzel Decorative, serif', fontWeight: 700, fontSize: 'clamp(26px, 9vw, 40px)', lineHeight: 1.15, marginBottom: 16 }}>
               <span style={{ display: 'block', fontStyle: 'italic', color: 'var(--fs-accent)' }}>Ninja</span>
@@ -248,7 +248,7 @@ function HeroSection() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 64px', width: '100%', display: 'flex', alignItems: 'center', gap: 40 }}>
         <div style={{ flex: '0 0 45%', paddingRight: 40, paddingTop: 48, paddingBottom: 48, animation: 'fadeInUp 0.7s ease 0.1s both' }}>
           <p style={{ fontFamily: 'Cinzel, serif', fontSize: '0.9rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--fs-muted)', marginBottom: 32 }}>
-            Tatuador em Toledo-PR, especialista no preto e cinza
+            Tatuador em Toledo-PR,<br />especialista no preto e cinza
           </p>
           <h1 style={{ fontFamily: 'Cinzel Decorative, serif', fontWeight: 700, fontSize: 68, lineHeight: 1.1, marginBottom: 16 }}>
             <span style={{ display: 'block', fontStyle: 'italic', color: 'var(--fs-accent)' }}>Ninja</span>
